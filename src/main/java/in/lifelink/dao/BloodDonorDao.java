@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import in.lifelink.dbutil.DBConnection;
-import in.lifelink.pojo.BloodDonorPojo;
+import in.lifelink.pojo.*;
 
 public class BloodDonorDao {
 	public static boolean addDonor(BloodDonorPojo donorPojo) throws SQLException{
